@@ -10,3 +10,12 @@
 *  This class sets up the user interface and event handling for the application
 # User 
 * This class repesents a user in the system, with attributes like: username and ID. It is mainly used to store user information after a successful login.
+# Authentication
+* Connects to a databse and verifies the provided username 
+# LoginPanel
+* This class is esigned to allow the user to log in to the reservation system. The class extebds JPanel and and contains several GUI components , including JTExtField for the username and student ID, JLabel for error messages and JButton for submitting login credentials.
+# Database
+* The SQL database has a single table whcih contains usernames, id's and block of the SKAPTO building.
+
+# How they relate to each other
+* All classes in the program + the Database work together to provide a secure and efficient system that lets the user to reserve a room in SKAPTO and choose their roommate.
